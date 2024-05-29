@@ -8,7 +8,7 @@ const port = 3003;
 
 // Enable CORS only for your front-end application
 app.use(cors({
-  origin: 'http://erpcustomization.net' // Only allow this origin to access your server
+  origin: 'https://erpcustomization.net/' // Only allow this origin to access your server
 }));
 
 // Middleware to parse JSON bodies
